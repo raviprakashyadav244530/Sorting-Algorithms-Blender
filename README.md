@@ -1,21 +1,27 @@
 # Sorting-Algorithms-Blender
 A Sorting Algorithms Visualizer built to help users understand how different sorting algorithms work through real-time visual animations. This tool provides an interactive and educational experience for students, developers, and anyone interested in learning sorting techniques.
-Sorting-Algorithms-Visualizer
 
-3D visualization of sorting algorithms using Blender and Python API
+Sorting Algorithms Visualizer 🎨
+
+Created by Raj Ravi – 3D visualization of sorting algorithms using Blender & Python API
+
+
+
 
 📑 Table of Contents
 Overview
 
-Project Description
-
 Features
 
-Installation & Usage
+Installation
+
+Usage
+
+Demo
 
 Visualization Types
 
-Implemented Algorithms
+Sorting Algorithms
 
 Big O Complexity
 
@@ -24,41 +30,57 @@ Future Enhancements
 License
 
 🔹 Overview
-This project provides animated visualizations of sorting algorithms inside Blender. Using Python scripts, it creates 3D objects and dynamically animates their movements to represent how sorting works step-by-step.
-
-📝 Project Description
-Generates 3D objects in Blender
-
-Inserts keyframes dynamically for each swap and comparison
-
-Offers multiple visualization styles (rotation, color, scale)
-
-Helps learners understand algorithm behavior intuitively
+This project is personally developed by Raj Ravi to help students and developers learn sorting algorithms visually.
+It uses Blender’s Python API to generate 3D objects and animate their movement to show element comparisons and swaps during sorting.
 
 ⚡ Features
-✅ Visualizes 7+ sorting algorithms
-✅ 3D animations with Blender Python API
-✅ Displays element comparisons and access counts
-✅ Multiple visualization styles (color, rotation, scale, 3D cube)
-✅ Lightweight and beginner-friendly
+✅ Custom-built 3D animations
+✅ Multiple visualization styles (Color, Rotation, Scaling, 3D cube)
+✅ Real-time swaps and comparison counters
+✅ Beginner-friendly Python scripts
+✅ Supports 7+ popular sorting algorithms
 
-🛠️ Installation & Usage
-Install and launch Blender
+🛠️ Installation
+Requirements
+Blender (latest version recommended)
 
-Open any .py file from the repository in Blender’s Text Editor
+Python (included with Blender)
+
+Steps
+Clone this repository
+
+bash
+Copy
+Edit
+git clone https://github.com/rajravi244530/Sorting-Algorithms-Visualizer.git
+cd Sorting-Algorithms-Visualizer
+Open Blender → Text Editor
+
+Load any sorting script from the src/ folder
 
 Click Run Script
 
-Play the animation timeline to see the sorting in action
+▶️ Usage
+After running the script, press Play on the timeline
+
+Watch the sorting process animated in 3D
+
+Try different scripts to see different algorithms
+
+🎥 Demo
+After installing and running the project, you can watch the demo animation here:
+
+👉 View Demo (Replace with your GIF or video link)
+
 
 🎨 Visualization Types
-Mode	Color Representation	Index Representation	Extra Features
-circle_view	HSV material coloring	Object rotation	Circular hue visualization
-color_view	Gradient-based colors	Plane positioning	Custom color gradients
-scale_view	Scaling effect	Cuboid positioning	Shows array access and comparisons
-combined_3D	Mixed color coding	3D cube arrangement	Multiple arrays visualized together
+Mode	Color Representation	Index Representation	Features
+circle_view	HSV color hue	Rotation	Circular hue rotation effect
+color_view	Gradient color mapping	Plane movement	Smooth gradient transitions
+scale_view	Scaling objects	Cuboid positioning	Displays swaps and access count
+combined_3D	Mixed colors	3D cube arrangement	Visualizes multiple arrays
 
-📋 Implemented Sorting Algorithms
+📋 Sorting Algorithms
 Bubble Sort
 
 Insertion Sort
@@ -74,7 +96,7 @@ Merge Sort
 Quick Sort
 
 📊 Big O Complexity
-Algorithm	Best Case	Average Case	Worst Case	Space Complexity
+Algorithm	Best	Average	Worst	Space
 Quick Sort	O(n log n)	O(n log n)	O(n²)	O(log n)
 Merge Sort	O(n log n)	O(n log n)	O(n log n)	O(n)
 Heap Sort	O(n log n)	O(n log n)	O(n log n)	O(1)
@@ -84,15 +106,22 @@ Selection Sort	O(n²)	O(n²)	O(n²)	O(1)
 Shell Sort	O(n log n)	O(n(log n)²)	O(n(log n)²)	O(1)
 
 🚀 Future Enhancements
-Add sound effects for comparisons and swaps
+🔊 Sound effects for swaps and comparisons
 
-Include more algorithms (Radix, Bucket, Counting)
+➕ Add more algorithms (Radix, Bucket, Counting)
 
-Dynamic camera setup for large datasets
+🎥 Auto camera adjustment for large arrays
 
-Create custom UI panel for parameter selection
+🎨 Custom UI panel for selecting algorithms and colors
 
-Optimize merge sort visualization
+🛠️ Optimized merge sort animation
 
 📜 License
-Distributed under the GPL-3.0 License.
+This project is licensed under GPL-3.0 and maintained by Raj Ravi.
+
+
+
+
+
+
+
